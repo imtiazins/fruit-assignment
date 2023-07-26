@@ -92,51 +92,151 @@
           
     </header>
     <main>
-        <!-- Banner section start from here -->
-      <section class="mt-14">
-        <div class="carousel w-full">
+         <!-- Banner section start from here -->
+      <section class="lg:mt-14">
+        <div class="carousel w-full relative">
           <div id="slide1" class="carousel-item relative w-full">
-            <img src="./images/banner1.png" class="w-full" />
-
+            <div class="hero w-full">
+              <img src="./images/banner1.png" class="w-full" />
+              <div class="hero-overlay bg-opacity-60"></div>
+              <div class="hero-content text-center text-white">
+                <div class="lg:w-4/5">
+                  <h1 class="lg:mb-3 text-xl md:text-4xl lg:text-5xl font-bold">
+                    Exotic tastes at your doorstep
+                  </h1>
+                  <p class="px-3 md:p-6 md:text-2xl lg:mb-1">
+                    We supply highly quality organic products
+                  </p>
+                  <button
+                    class="bg-[#f85559] p-2 md:p-3 lg:px-7 lg:py-5 rounded-lg lg:font-bold"
+                  >
+                    Shop Now
+                  </button>
+                </div>
+              </div>
+            </div>
             <div
               class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
             >
-              <a href="#slide4" class="btn btn-circle">❮</a>
-              <a href="#slide2" class="btn btn-circle">❯</a>
+              <a href="#slide4" class="btn bg-black btn-circle text-white">❮</a>
+              <a href="#slide2" class="btn bg-black btn-circle text-white">❯</a>
             </div>
           </div>
           <div id="slide2" class="carousel-item relative w-full">
-            <img src="./images/banner2.png" class="w-full" />
+            <div class="hero w-full">
+              <img src="./images/banner2.png" class="w-full" />
+              <div class="hero-overlay bg-opacity-60"></div>
+              <div class="hero-content text-center text-white">
+                <div class="lg:w-4/5">
+                  <h1 class="lg:mb-5 text-xl lg:text-5xl font-bold">
+                    Exotic tastes at your doorstep
+                  </h1>
+                  <p class="lg:mb-5">
+                    We supply highly quality organic products
+                  </p>
+                  <button
+                    class="bg-[#f85559] p-2 lg:px-7 lg:py-5 rounded-lg lg:font-bold"
+                  >
+                    Shop Now
+                  </button>
+                </div>
+              </div>
+            </div>
             <div
               class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
             >
-              <a href="#slide1" class="btn btn-circle">❮</a>
-              <a href="#slide3" class="btn btn-circle">❯</a>
+              <a href="#slide1" class="btn bg-black btn-circle text-white">❮</a>
+              <a href="#slide3" class="btn bg-black btn-circle text-white">❯</a>
             </div>
           </div>
           <div id="slide3" class="carousel-item relative w-full">
-            <img src="./images/banner3.png" class="w-full" />
+            <div class="hero w-full">
+              <img src="./images/banner3.png" class="w-full" />
+             <div class="hero-overlay bg-opacity-60"></div>
+              <div class="hero-content text-center text-white">
+                <div class="lg:w-4/5">
+                  <h1 class="lg:mb-5 text-xl lg:text-5xl font-bold">
+                    Exotic tastes at your doorstep
+                  </h1>
+                  <p class="lg:mb-5">
+                    We supply highly quality organic products
+                  </p>
+                  <button
+                    class="bg-[#f85559] p-2 lg:px-7 lg:py-5 rounded-lg lg:font-bold"
+                  >
+                    Shop Now
+                  </button>
+                </div>
+              </div>
+            </div>
             <div
               class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
             >
-              <a href="#slide2" class="btn btn-circle">❮</a>
-              <a href="#slide4" class="btn btn-circle">❯</a>
+              <a href="#slide2" class="btn bg-black btn-circle text-white">❮</a>
+              <a href="#slide4" class="btn bg-black btn-circle text-white">❯</a>
             </div>
           </div>
           <div id="slide4" class="carousel-item relative w-full">
-            <img src="./images/banner4.png" class="w-full" />
+            <div class="hero w-full">
+              <img src="./images/banner4.png" class="w-full" />
+              <div class="hero-overlay bg-opacity-60"></div> 
+              <div class="hero-content text-center text-white">
+                <div class="lg:w-4/5">
+                  <h1 class="lg:mb-5 text-xl lg:text-5xl font-bold">
+                    Exotic tastes at your doorstep
+                  </h1>
+                  <p class="lg:mb-5">
+                    We supply highly quality organic products
+                  </p>
+                  <button
+                    class="bg-[#f85559] p-2 lg:px-7 lg:py-5 rounded-lg lg:font-bold"
+                  >
+                    Shop Now
+                  </button>
+                </div>
+              </div>
+            </div>
             <div
               class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
             >
-              <a href="#slide3" class="btn btn-circle">❮</a>
-              <a href="#slide1" class="btn btn-circle">❯</a>
+              <a href="#slide3" class="btn bg-black btn-circle text-white">❮</a>
+              <a href="#slide1" class="btn bg-black btn-circle text-white">❯</a>
             </div>
           </div>
         </div>
+
+        <!-- Position relative section start from here -->
+        <div class="absolute -bottom-16 hidden lg:block">
+          <div
+            class="w-4/5 bg-[#fff] mx-auto flex py-12 px-16 shadow-md rounded-lg gap-24"
+          >
+            <div>
+              <img src="./images/fruit1.png" alt="" />
+              <p class="text-center">Grapes</p>
+            </div>
+            <div>
+              <img src="./images/fruit2.png" alt="" />
+              <p class="text-center">Orange</p>
+            </div>
+            <div>
+              <img src="./images/fruit3.png" alt="" />
+              <p class="text-center">Mango</p>
+            </div>
+            <div>
+              <img src="./images/fruit4.png" alt="" />
+              <p class="text-center">Strawberry</p>
+            </div>
+            <div>
+              <img src="./images/fruit5.png" alt="" />
+              <p class="text-center">Pomegranate</p>
+            </div>
+          </div>
+        </div>
+        <!-- Position relative end -->
       </section>
-      <!-- Banner end-->
+      <!-- Banner section end  -->
     </header>
-    <!-- Header here -->
+    <!-- Header end here -->
     <main>
       <!-- Deal of the day section start -->
       <section class="max-w-screen-xl mx-auto px-10 mt-14">
